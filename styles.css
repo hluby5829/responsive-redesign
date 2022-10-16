@@ -28,6 +28,10 @@ body {
     border-color: #FFFFFF;
 }
 
+.first-paragraph {
+    margin: auto;
+}
+
 .header {
     display: flex;
     max-height: 50vh;
