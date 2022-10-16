@@ -1,0 +1,79 @@
+a {
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-size: large;
+}
+
+.col {
+    min-width: 20%;
+}
+
+.container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler {
+    border-color: #FFFFFF;
+}
+
+.header {
+    display: flex;
+    max-height: 50vh;
+}
+
+.header-img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.icon-img {
+    width: 2em;
+}
+
+.hours-table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 1em;
+}
+
+.lower-footer {
+    color: #C2C2C2;
+    font-size: 1rem;
+    background-color:#00463C;
+}
+
+.navbar {
+    background-color: #00463C;
+    font-family: 'Montserrat';
+}
+
+.nav-link.disabled {
+    color: #C2C2C2;
+}
+
+.nav-link.disabled:hover {
+    color: #FFFFFF;
+}
+
+.section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.upper-footer {
+    padding: 1rem;
+    background-color:#D9D9D9;
+}
