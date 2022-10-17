@@ -11,13 +11,35 @@ body {
     font-size: large;
 }
 
-.col {
-    min-width: 20%;
+.col-sm ul {
+    font-size: medium;
+}
+
+.col-sm li {
+    list-style: none;
+    font-size: small;
 }
 
 .container {
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+.coupons-btn {
+    color: #FFFFFF;
+    background-color: #00463C;
+    border-radius: 30px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border: none;
+}
+
+.coupons-btn:active {
+    color: #FFFFFF;
+    background-color: #002520;
+    border-radius: 30px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    cursor: pointer;
+    border: none;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -44,6 +66,7 @@ body {
 
 .icon-img {
     width: 2em;
+    cursor: pointer;
 }
 
 .hours-table {
@@ -78,6 +101,6 @@ body {
 }
 
 .upper-footer {
-    padding: 1rem;
+    padding: 1rem 3rem 1rem 3rem;
     background-color:#D9D9D9;
 }
