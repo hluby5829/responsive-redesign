@@ -58,6 +58,7 @@ body {
 .dropdown-menu {
     background-color: #00463C;
     border: 0;
+    font-size: inherit;
 }
 
 .dropdown-item:hover {
@@ -68,6 +69,10 @@ body {
     margin: auto;
 }
 
+h2 {
+    font-size: 2em;
+}
+
 .header {
     display: flex;
     max-height: 50vh;
@@ -76,6 +81,13 @@ body {
 .header-img {
     object-fit: cover;
     width: 100%;
+}
+
+.hours-table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 1em;
 }
 
 iframe {
@@ -93,13 +105,6 @@ iframe {
 
 .inactive:hover {
     color: #FFFFFF;
-}
-
-.hours-table {
-    margin-left: auto;
-    margin-right: auto;
-    border-collapse: separate;
-    border-spacing: 1em;
 }
 
 .lower-footer {
