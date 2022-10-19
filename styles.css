@@ -11,13 +11,20 @@ body {
     font-size: large;
 }
 
+.caption {
+    position: absolute;
+    margin: 0;
+    height: 10%;
+    bottom: 0;
+}
+
 .col-sm ul {
-    font-size: medium;
+    font-size: 80%;
 }
 
 .col-sm li {
     list-style: none;
-    font-size: small;
+    font-size: 80%;
 }
 
 .container {
@@ -32,14 +39,12 @@ body {
     padding: 0.5rem 1rem 0.5rem 1rem;
     border: none;
 }
+.coupons-btn {
+    cursor: pointer;
+}
 
 .coupons-btn:active {
-    color: #FFFFFF;
     background-color: #002520;
-    border-radius: 30px;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    cursor: pointer;
-    border: none;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -48,6 +53,15 @@ body {
 
 .custom-toggler .navbar-toggler {
     border-color: #FFFFFF;
+}
+
+.dropdown-menu {
+    background-color: #00463C;
+    border: 0;
+}
+
+.dropdown-item:hover {
+    background-color: #00463C;
 }
 
 .first-paragraph {
@@ -64,9 +78,21 @@ body {
     width: 100%;
 }
 
+iframe {
+    display: block;
+}
+
 .icon-img {
-    width: 2em;
+    width: 2rem;
     cursor: pointer;
+}
+
+.inactive {
+    color: #C2C2C2;
+}
+
+.inactive:hover {
+    color: #FFFFFF;
 }
 
 .hours-table {
@@ -85,14 +111,6 @@ body {
 .navbar {
     background-color: #00463C;
     font-family: 'Montserrat';
-}
-
-.nav-link.disabled {
-    color: #C2C2C2;
-}
-
-.nav-link.disabled:hover {
-    color: #FFFFFF;
 }
 
 .section {
